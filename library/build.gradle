@@ -7,7 +7,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 31
         versionCode 2
-        versionName "0.2.0"
+        versionName "0.3.0"
     }
     buildTypes {
         release {
@@ -51,7 +51,7 @@ ext {
     siteUrl = 'https://github.com/leavjenn/SmoothDateRangePicker'
     gitUrl = 'https://github.com/leavjenn/SmoothDateRangePicker.git'
 
-    libraryVersion = '0.2.0'
+    libraryVersion = '0.3.0'
 
     developerId = 'leavjenn'
     developerName = 'Leav Jenn'
