@@ -6,8 +6,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 31
-        versionCode 3
-        versionName "0.3.0"
+        versionCode 4
+        versionName "0.4.0"
     }
     buildTypes {
         release {
@@ -40,27 +40,3 @@ artifacts {
     archives generateJavadocsJar
     archives generateSourcesJar
 }
-
-ext {
-    publishedGroupId = 'com.leavjenn.smoothdaterangepicker'
-    libraryName = 'SmoothDateRangePicker'
-    artifact = 'smoothdaterangepicker'
-
-    libraryDescription = 'An Android date range picker widget based on stock material design date picker'
-
-    siteUrl = 'https://github.com/leavjenn/SmoothDateRangePicker'
-    gitUrl = 'https://github.com/leavjenn/SmoothDateRangePicker.git'
-
-    libraryVersion = '0.3.0'
-
-    developerId = 'leavjenn'
-    developerName = 'Leav Jenn'
-    developerEmail = 'leavjenn@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
-group = publishedGroupId
-version = libraryVersion
